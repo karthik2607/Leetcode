@@ -1,6 +1,8 @@
+// 136
 //Single number this can be solved using Bit manipulation using xor
 //Also i tried using Hashmap to solve the problem
 //https://leetcode.com/problems/single-number/description/
+
 
 
 // Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
