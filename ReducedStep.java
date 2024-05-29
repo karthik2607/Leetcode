@@ -1,6 +1,7 @@
 //using BigInteger module from import java.math.*;
 //1404
 //https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/description/
+//29.5.2024
 
 // Given the binary representation of an integer as a string s, return the number of steps to reduce it to 1 under the following rules:
 
