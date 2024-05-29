@@ -24,17 +24,49 @@
 // Output: false
 
 //Brute force solution
+// class Solution {
+//     public boolean searchMatrix(int[][] matrix, int target) {
+//         for(int i=0;i<matrix.length;i++){
+//             for(int j=0;j<matrix[0].length;j++){
+//                 if(matrix[i][j]==target){
+//                     return true;
+//                 }
+//             }
+//         }
+//         return false;
+        
+//     }
+// }
+
+
+//binary serach
+import java.util.*;
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
-        for(int i=0;i<matrix.length;i++){
-            for(int j=0;j<matrix[0].length;j++){
-                if(matrix[i][j]==target){
-                    return true;
-                }
+        int c=0;
+        int start=0;
+        int end=matrix.length;
+        while(start <= end){
+            int mid=(start+end)/2;
+            if(matrix[mid][0] == target){
+                c = mid;
+                break;
+            }
+            if(matrix[mid][0] > target){
+                end = mid;
+            }else{
+                start = mid;
+            }
+            if((end-start) <= 1){
+                c = start;
+                break;
             }
         }
-        return false;
         
+        int j = Arrays.binarySearch(matrix[c],target);
+        if(j>=0){
+            return true;
+        }
+        return false;
     }
 }
- 
