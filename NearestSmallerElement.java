@@ -49,7 +49,7 @@
 //     index 2: No element less than 2 in left of 2, G[2] = -1
 //     index 3: No element less than 1 in left of 1, G[3] = -1
 
-
+import java.util.*;
 public class NearestSmallerElement {
     public ArrayList<Integer> prevSmaller(ArrayList<Integer> A) {
         ArrayList<Integer> arr = new ArrayList<Integer>();

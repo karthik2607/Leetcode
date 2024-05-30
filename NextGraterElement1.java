@@ -26,7 +26,7 @@
 //https://leetcode.com/problems/next-greater-element-ii/description/
 
 //This code done in a fashion like circular array so used mod operator
-
+import java.util.*;
 class Solution {
     public int[] nextGreaterElements(int[] nums) {
         int[]res=new int[nums.length];

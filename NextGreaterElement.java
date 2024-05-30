@@ -33,10 +33,10 @@
 // All integers in nums1 and nums2 are unique.
 // All the integers of nums1 also appear in nums2.
 
-https://leetcode.com/problems/next-greater-element-i/description/
+//https://leetcode.com/problems/next-greater-element-i/description/
 
 
-
+import java.util.*;
 class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
                 // BRUTE FORCE APPROACH
