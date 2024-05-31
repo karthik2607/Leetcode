@@ -40,12 +40,12 @@ class Solution {
         int n=s.length();
         Map<Character,Integer> mp=new HashMap<>();
         while(right<n){
-            if(mp.containsKey(s.charAt(r))){
-                left=Math.max(left,mp.get(s.charAt(r))+1);
+            if(mp.containsKey(s.charAt(right))){
+                left=Math.max(left,mp.get(s.charAt(right))+1);
             }
-            mp.put(s.charAt(r),r);
-            len=Math.max(len,r-l+1);
-            r++;
+            mp.put(s.charAt(right),right);
+            len=Math.max(len,right-left+1);
+            right++;
         }
         return len;
         
