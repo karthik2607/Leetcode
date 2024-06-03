@@ -59,6 +59,7 @@ public class Validparantheses {
         String s=sc.nextLine();
         boolean answer=isValid(s);
         System.out.print(answer);
+        sc.close();
     }
     
 }
