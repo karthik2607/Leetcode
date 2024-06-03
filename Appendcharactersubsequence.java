@@ -1,6 +1,5 @@
 //2486
 //3.6.24
-//hello
 //https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/description/?envType=daily-question&envId=2024-06-03
 
 // You are given two strings s and t consisting of only lowercase English letters.
