@@ -23,7 +23,7 @@
 // words[i] consists of lowercase English letters.
 
 
-
+import java.util.*;
 class Solution {
     public List<String> commonChars(String[] words) {
         List<String> result = new ArrayList<>();
