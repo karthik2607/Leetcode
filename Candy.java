@@ -15,7 +15,7 @@
 
  
 
-// Example 1:
+// Example 1
 
 // Input: ratings = [1,0,2]
 // Output: 5
