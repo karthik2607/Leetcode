@@ -7,7 +7,9 @@
 
  
 
-// Example 1;
+// Example 1
+
+
 
 // Input: c = 5
 // Output: true
