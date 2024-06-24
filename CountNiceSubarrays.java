@@ -8,7 +8,7 @@
 
  
 
-// Example 1:
+// Example 1
 
 // Input: nums = [1,1,2,1,1], k = 3
 // Output: 2
