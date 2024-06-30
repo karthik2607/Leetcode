@@ -13,7 +13,7 @@
 
  
 
-// Example 1:
+// Example 1
 
 // Input
 // ["LRUCache", "put", "put", "get", "put", "get", "put", "get", "get", "get"]
