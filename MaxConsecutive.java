@@ -20,7 +20,7 @@
 // Constraints:
 
 // 1 <= nums.length <= 105
-// nums[i] is either 0 or 1.
+// nums[i] is either 0 or 1
 
 
 
