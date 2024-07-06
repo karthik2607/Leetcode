@@ -3,7 +3,7 @@
 //String builder
 //https://leetcode.com/problems/clear-digits/submissions/1285791123/
 
-// You are given a string s.
+// You are given a string s
 
 // Your task is to remove all digits by doing this operation repeatedly:
 
