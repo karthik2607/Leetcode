@@ -10,7 +10,7 @@
 
  
 
-// Example 1:
+//Example 1
 
 // Input: s = "(abcd)"
 // Output: "dcba"
@@ -26,11 +26,11 @@
 // Explanation: First, we reverse the substring "oc", then "etco", and finally, the whole string.
  
 
-// Constraints:
+// Constraints
 
 // 1 <= s.length <= 2000
 // s only contains lower case English characters and parentheses.
-// It is guaranteed that all parentheses are balanced.
+// It is guaranteed that all parentheses are balanced
 
 
 
