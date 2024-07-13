@@ -6,7 +6,7 @@
 
 // Reverse the strings in each pair of matching parentheses, starting from the innermost one.
 
-// Your result should not contain any brackets.
+// Your result should not contain any brackets
 
  
 
