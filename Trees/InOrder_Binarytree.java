@@ -1,8 +1,8 @@
-//144
+//94
 //15.8.24
-//https://leetcode.com/problems/binary-tree-preorder-traversal/description/
+//https://leetcode.com/problems/binary-tree-inorder-traversal/description/
 
-// Given the root of a binary tree, return the preorder traversal of its nodes' values.
+// Given the root of a binary tree, return the inorder traversal of its nodes' values.
 
  
 
@@ -10,7 +10,7 @@
 
 
 // Input: root = [1,null,2,3]
-// Output: [1,2,3]
+// Output: [1,3,2]
 // Example 2:
 
 // Input: root = []
@@ -29,6 +29,10 @@
 
 // Follow up: Recursive solution is trivial, could you do it iteratively?
 
+
+package Trees;
+
+import java.util.*;
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -44,24 +48,19 @@
  *     }
  * }
  */
-package Trees;
-import java.util.*;
 class Solution {
 
-    private void preorder(TreeNode root,List<Integer>res){
+    private void inorder(TreeNode root,List<Integer>res){
         if(root==null) return;
+        inorder(root.left,res);
         res.add(root.val);
-        preorder(root.left,res);
-        preorder(root.right,res);
+        inorder(root.right,res);
     }
-    public List<Integer> preorderTraversal(TreeNode root) {
-        List<Integer> res=new ArrayList<>();
-        preorder(root,res);
+    public List<Integer> inorderTraversal(TreeNode root) {
+        List<Integer>res=new ArrayList<>();
+        inorder(root,res);
         return res;
-
-
-
-        
         
     }
 }
+
