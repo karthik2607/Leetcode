@@ -36,7 +36,7 @@
 
 // 1 <= banned.length <= 104
 // 1 <= banned[i], n <= 104
-1 <= maxSum <= 109
+//1 <= maxSum <= 109
 
 package Daily;
 
